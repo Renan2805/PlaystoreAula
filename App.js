@@ -17,8 +17,9 @@ const App = () => {
       <Botao texto={'Movies'} cor={'#ed3b3b'} logo={'videocam-outline'} texto2={'Livros'} logo2={'book-outline'} cor2={'#039be5'}/>
       <View>
         <Text style={style.title}>Games</Text>
-        <FlatList 
+        <FlatList
           horizontal={true}
+          showsHorizontalScrollIndicator={false}
           data={GAMES}
           keyExtractor = {item => item.id}
           renderItem={({item}) => (
@@ -34,6 +35,7 @@ const App = () => {
         <Text style={style.title}>Apps</Text>
         <FlatList 
           horizontal={true}
+          showsHorizontalScrollIndicator={false}
           data={APPS}
           keyExtractor = {item => item.id}
           renderItem={({item}) => (
