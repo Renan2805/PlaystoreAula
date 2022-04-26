@@ -39,7 +39,8 @@ const style = StyleSheet.create({
     flexDirection: 'column',
     marginTop: 20,
     padding: 10,
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    maxWidth: 500
   },
   info: {
     flex: 1,
@@ -50,7 +51,8 @@ const style = StyleSheet.create({
   imagem: {
     width: 400,
     height: 225,
-    borderRadius: 10
+    borderRadius: 10,
+    marginHorizontal: 'auto'
   },
   titulo: {
     fontSize: 20,

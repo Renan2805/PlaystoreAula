@@ -45,7 +45,9 @@ const App = () => {
           )}
         />
       </View>
-      <Destaque imagem={'apexm-banner.jpg'} titulo="Apex Legends" price={0} rating={3}/>
+      <View style={{marginHorizontal: 'auto', maxWidth: 500, }}>
+        <Destaque imagem={'apexm-banner.jpg'} titulo="Apex Legends" price={0} rating={3} />
+      </View>
     </View>
   )
 }
